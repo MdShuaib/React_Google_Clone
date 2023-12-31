@@ -48,3 +48,7 @@
     border: 1px solid #c6c6cc;
     color: #222
 }
+
+.search__buttonHidden {
+    display: none !important;
+}
