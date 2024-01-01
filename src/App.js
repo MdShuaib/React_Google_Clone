@@ -1,5 +1,6 @@
 import './App.css';
-import Home from './pages/Home'
+import Home from './pages/Home';
+import SearchPage from './pages/Searchpage';
 import {
   BrowserRouter as Router,
   Route,
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/search' element={<h2>Inside search page</h2>} />
+          <Route path='/search' element={<SearchPage />} />
           <Route path='/' element={<Home />} />
         </Routes>
       </Router>
