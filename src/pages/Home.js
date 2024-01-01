@@ -25,7 +25,7 @@ const Home = () => {
             <div className='home__body'>
                 <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png' alt='' />
                 <div className='home_inputContainer'>
-                    <Search hideButtons />
+                    <Search />
                 </div>
             </div>
         </div>
